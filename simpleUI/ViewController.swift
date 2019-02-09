@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     func getWeekMsg(week: Int)-> String
     {
-        var msg = "hello"
+        var msg = ""
         let msgOfWeek = [
             1: ["日曜日いかがお過ごしですか",
                 "掃除とか片付けすると気持ちもリフレッシュしますよ",
